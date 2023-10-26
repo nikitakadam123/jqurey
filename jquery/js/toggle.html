@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My function</title>
+</head>
+
+<body>
+    <h1>My heading</h1>
+    <button id="btn">Toggle</button>
+    <p id="wiki">Wikipedia was launched by Jimmy Wales and Larry Sanger on January 15, 2001. Sanger coined its name as a blend of
+        wiki and encyclopedia. Wales was influenced by the "spontaneous order" ideas associated with Friedrich Hayek and
+        the Austrian School of economics after being exposed to these ideas by the libertarian economist Mark
+        Thornton.[5] Initially available only in English, versions in other languages were quickly developed. Its
+        combined editions comprise more than 60 million articles, attracting around 2 billion unique device visits per
+        month and more than 15 million edits per month (about 5.7 edits per second on average) as of January 2023.[6][7]
+        In 2006, Time magazine stated that the policy of allowing anyone to edit had made Wikipedia the "biggest (and
+        perhaps best) encyclopedia in the world"</p>
+   
+</body>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+     //$('#btn').click(function(){
+      //   $('#wiki').toggle(1000);
+     //});
+     $('#btn').click(function(){
+         $('#wiki'). fadeToggle(3000);
+     });
+
+     //fadeIn
+     //fadeOut
+     //fadeTo
+     //fadeToggle
+
+     $('#wiki').slideUp(1000)
+        console.log("sider Up is done");
+     
+     //sliderUp
+     //sliderDown
+     //sliderToggle
+    </script>
+</html>

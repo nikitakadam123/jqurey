@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in javascript</title>
+</head>
+
+<body>
+    <p id="wiki">Wikipedia has been praised for its enablement of the democratization of knowledge, extent of coverage,
+        unique structure, culture, and reduced degree of commercial bias. It has been criticized for exhibiting systemic
+        bias, particularly gender bias against women and ideological bias.[9][10] The reliability of Wikipedia was
+        frequently criticized in the 2000s, but has improved over time, as Wikipedia has been generally praised in the
+        late 2010s and early 2020s.[3][9][11] The website's coverage of controversial topics such as American politics
+        and major events like the COVID-19 pandemic and the Russian invasion of Ukraine has received substantial media
+        attention.[12][13][14] It has been censored by world governments, ranging from specific pages to the entire
+        site.[15][16] On 3 April 2018, Facebook and YouTube announced that they would help users detect fake news by
+        suggesting fact-checking links to related Wikipedia</p>
+</body>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+    $('#wiki').animate({
+       opapcity: 0.3,
+       hight: '100px',
+       width: '200px'
+
+    }, "slow")
+    console.log("done");
+    </script>
+</html>

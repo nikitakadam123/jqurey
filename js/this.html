@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>object</title>
+        </head>
+        <body>
+            <p>___________Object cration and accsess___________</p>
+            <p id="demo"></p>
+            <script>
+                    const abc = {
+                    type: "abc", 
+                    height: "short", 
+                    full_data : function()
+                    {
+                        return this.type + " " + this.height;
+                    }
+                    };  
+                    document.getElementById("demo").innerHTML=abc.full_data();      
+                    </script>
+            </body>
+    </html>

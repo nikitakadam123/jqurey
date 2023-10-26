@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Event handling function</title>
+        
+      
+            <script language="javascript" type="text/javascript">
+                function MouseOver()
+                {
+                    document.images["img"].src="C:\Users\HP\Desktop\js\b1.jpg";
+        
+                }
+                function MouseOut()
+                {
+                    document.images["img"].src="C:\Users\HP\Desktop\js\b2.jpg";
+                }
+                function Load()
+                {
+                    document.images["img"].src="C:\Users\HP\Desktop\js\i3.jpg";
+                }
+            
+                </script>
+                </head>
+                <body onload="Load()">
+                    <img name = "img" onmouseover="MouseOver()" onmouseout="MouseOut()"> 
+
+            </body>
+
+    </html>

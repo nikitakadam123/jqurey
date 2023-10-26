@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> This Hide</title>
+</head>
+
+<body>
+    <p1>My First Paragraph</p1><br /><br />
+
+    <p1>My Second Paragraph</p1><br /><br />
+    <p1>My 3rd paragraph</p1><br /><br />
+    <p1>My 4th paragraph</p1><br /><br />
+</body>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {                    //for ready the document
+        $('p1').click(function () {
+            console.log("you click on p1");
+            $(this).hide();
+        });
+    });
+
+</script>
+
+</html>

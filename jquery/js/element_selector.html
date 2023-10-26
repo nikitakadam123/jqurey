@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> element selector
+            </title>
+    </head>
+    <body>
+        <p>My 1st paragraph</p>
+        <p>My 2nd paragraph</p>
+        <p>My 3rd paragraph</p>
+        <p>My 4th paragraph</p>
+    </body>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            console.log("we are doing jquery here....");
+            $('p').click(function(){
+            console.log("You enter click on any p");
+        });
+        
+        $('p').click();
+        });
+        
+// output of this code is disply how many time you click on p
+            
+        
+        
+
+        </script>
+    </html>

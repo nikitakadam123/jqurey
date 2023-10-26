@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Event handling</title>
+        <script language="javascript" type="text/javascript">
+            function nikita()
+            {
+            var a = 100;
+            try {
+                var s = a.toUppercase();
+                alert("Var is" + a);
+
+            }
+            catch{
+                alert("error");
+            }
+            finally{
+                alert("Must be executed");
+            }
+            }
+        </script>
+        </head>
+    
+        <body>
+            
+         <p> click me for result: </p>
+         <form>
+            <input type="button" value="submit" onclick="nikita()">
+            </form>
+
+           
+            </body>
+    </html>

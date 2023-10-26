@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+
+<body>
+    <h1>My heading</h1>
+    <p id="wiki">Wikipedia is a multilingual free online encyclopedia written and maintained by a community of volunteers,
+        known as Wikipedians, through open collaboration and using a wiki-based editing system called MediaWiki.
+        Wikipedia is the largest and most-read reference work in history.[3] It is consistently one of the 10 most
+        popular websites ranked by Similarweb and formerly Alexa; as of 2023, Wikipedia was ranked the 5th most popular
+        site in the world.[4] It is hosted by the Wikimedia Foundation, an American non-profit organization funded
+        mainly through donations.</p>
+</body>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+    $('p').on({
+        click: function(){
+            console.log("you click on p");
+        },
+         mouseleave: function(){
+              console.log("Mouseleave");
+         },
+         mouseover: function(){
+              console.log("Mouseover");
+         }
+    });
+    //output of this program is when you click on paragrph display msg "you click", u give the courser over the paragraph display msg "mouseover"
+    // and when you leave the mouse from the paragraph display msg "mouseleave" 
+   
+</script>
+</html>
+

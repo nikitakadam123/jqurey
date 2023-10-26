@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class selector</title>
+</head>
+
+<body>
+    <p class="odd">My 1st paragraph</p>
+    <p id="demo">My 2nd paragraph</p>
+    <p class="odd">My 3rd paragraph</p>
+    <p>My 4th paragraph</p>
+</body>
+<script src="jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        console.log("you click on p1 and p3");
+        $('.odd').click();
+
+
+
+    });
+</script>
+
+</html>
